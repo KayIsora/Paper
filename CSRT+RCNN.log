@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,12 +572,12 @@ Underfull \hbox (badness 5345) in paragraph at lines 74--74
 []\OT1/cmr/bx/n/12 Correlation Fil-ters and Mo-tion
  []
 
-<Figure1.png, id=98, 970.62625pt x 843.15pt>
+<Figure1.png, id=94, 970.62625pt x 843.15pt>
 File: Figure1.png Graphic file (type png)
 <use Figure1.png>
 Package pdftex.def Info: Figure1.png  used on input line 100.
 (pdftex.def)             Requested size: 103.48459pt x 89.89066pt.
-<Figure2.png, id=99, 642.4pt x 361.35pt>
+<Figure2.png, id=95, 642.4pt x 361.35pt>
 File: Figure2.png Graphic file (type png)
 <use Figure2.png>
 Package pdftex.def Info: Figure2.png  used on input line 100.
@@ -598,7 +598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 motion-guided and confidence-controlled pipeline.
  []
 
-<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=108, 1119.43219pt x 712.91344pt>
+<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=104, 1119.43219pt x 712.91344pt>
 File: Bao_CSRTUpdate_OnlyDraio1.drawio.png Graphic file (type png)
 <use Bao_CSRTUpdate_OnlyDraio1.drawio.png>
 Package pdftex.def Info: Bao_CSRTUpdate_OnlyDraio1.drawio.png  used on input li
@@ -619,7 +619,7 @@ it/10 ^^Q[]w[];  h[] \OT1/cmr/m/n/10 = (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10
  []
 
 [5]
-<otb100_lasot_fps_success_auc_cross_section_full_en.png, id=150, 1438.173pt x 5
+<otb100_lasot_fps_success_auc_cross_section_full_en.png, id=146, 1438.173pt x 5
 19.541pt>
 File: otb100_lasot_fps_success_auc_cross_section_full_en.png Graphic file (type
  png)
@@ -639,23 +639,23 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [6 <./otb100_lasot_fps_success_auc_cross_section_full_en.png>]
-<Jetson_Lasot_AUC.png, id=160, 2055.68pt x 1533.73pt>
+<Jetson_Lasot_AUC.png, id=156, 2055.68pt x 1533.73pt>
 File: Jetson_Lasot_AUC.png Graphic file (type png)
 <use Jetson_Lasot_AUC.png>
 Package pdftex.def Info: Jetson_Lasot_AUC.png  used on input line 384.
 (pdftex.def)             Requested size: 108.08492pt x 80.62267pt.
-<Jetson_Lasot_FPS.png, id=161, 2055.68pt x 1331.97626pt>
+<Jetson_Lasot_FPS.png, id=157, 2055.68pt x 1331.97626pt>
 File: Jetson_Lasot_FPS.png Graphic file (type png)
 <use Jetson_Lasot_FPS.png>
 Package pdftex.def Info: Jetson_Lasot_FPS.png  used on input line 384.
 (pdftex.def)             Requested size: 108.08492pt x 70.0172pt.
-<JetsonNano_OTB_SuccessPlot.png, id=162, 554.07pt x 367.3725pt>
+<JetsonNano_OTB_SuccessPlot.png, id=158, 554.07pt x 367.3725pt>
 File: JetsonNano_OTB_SuccessPlot.png Graphic file (type png)
 <use JetsonNano_OTB_SuccessPlot.png>
 Package pdftex.def Info: JetsonNano_OTB_SuccessPlot.png  used on input line 384
 .
 (pdftex.def)             Requested size: 108.08492pt x 71.66257pt.
-<JetsonNano_OTB_FPS.png, id=163, 554.07pt x 369.38pt>
+<JetsonNano_OTB_FPS.png, id=159, 554.07pt x 369.38pt>
 File: JetsonNano_OTB_FPS.png Graphic file (type png)
 <use JetsonNano_OTB_FPS.png>
 Package pdftex.def Info: JetsonNano_OTB_FPS.png  used on input line 384.
@@ -673,16 +673,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `CSRT+RCNN.out' has not changed.
-(rerunfilecheck)             Checksum: 7736D7FF7BAD534EC96AC4414780A511;4444.
+(rerunfilecheck)             Checksum: 39C9A7D37A66FE48B45D89ADF1FE2635;4215.
  ) 
 Here is how much of TeX's memory you used:
- 14008 strings out of 467691
- 220579 string characters out of 5414988
+ 14003 strings out of 467691
+ 220519 string characters out of 5414988
  658822 words of memory out of 5000000
- 42840 multiletter control sequences out of 15000+600000
- 637659 words of font info for 78 fonts, out of 8000000 for 9000
+ 42837 multiletter control sequences out of 15000+600000
+ 637491 words of font info for 77 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 75i,9n,79p,932b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,932b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -702,12 +702,10 @@ type1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/
-nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.
-pfb>
-Output written on CSRT+RCNN.pdf (8 pages, 2029774 bytes).
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on CSRT+RCNN.pdf (8 pages, 2015359 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

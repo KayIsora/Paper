@@ -387,12 +387,6 @@ The Jetson Nano analysis provides evidence that CA-CSRT remains practically depl
 
 The embedded results illustrate the trade-off between runtime and tracking quality, and they support the intended use of CA-CSRT as a lightweight tracker that remains in a usable operating region on Jetson Nano. The results are not used to claim absolute superiority over all embedded trackers, but to support the practical deployment motivation of the proposed framework.
 
-\subsection{Benchmark Challenge Visualization}
-
-TODO: Insert the benchmark-challenge visualization generated from \path{mytracker_vs_pure_csrt_otb_lasot_by_sequence.xlsx} after it is redrawn using the selected plotting/toolkit workflow.
-
-The benchmark-challenge visualization is intended to show in which sequence conditions CA-CSRT is most beneficial. In particular, sequences involving scale variation, abrupt motion, blur, background distractors, or partial occlusion are important for analyzing whether APCE-guided Kalman fusion and local scale refinement provide measurable benefits. Sequences where pure CSRT performs better should also be included in the analysis to preserve balance and scientific honesty.
-
 \subsection{Discussion}
 
 Overall, the experimental results support the main claim that CA-CSRT improves the robustness-efficiency trade-off of a CSRT-family tracker. Compared with pure CSRT, CA-CSRT obtains a modest average AUC improvement on OTB100 and a larger improvement on the evaluated LaSOT subset. This suggests that confidence-guided fusion and conservative update are more beneficial in longer or more challenging sequences, where response ambiguity and drift are more likely to occur.
