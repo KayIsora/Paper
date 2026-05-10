@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,8 +464,8 @@ Package caption Info: listings package is loaded.
 tex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count337
-) (CSRT+RCNN.aux)
-\openout1 = `CSRT+RCNN.aux'.
+) (section35_check.aux)
+\openout1 = `section35_check.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -512,9 +512,9 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 29.
- (CSRT+RCNN.out) (CSRT+RCNN.out)
+ (section35_check.out) (section35_check.out)
 \@outlinefile=\write3
-\openout3 = `CSRT+RCNN.out'.
+\openout3 = `section35_check.out'.
 
 \c@lstlisting=\count344
 
@@ -572,12 +572,12 @@ Underfull \hbox (badness 5345) in paragraph at lines 74--74
 []\OT1/cmr/bx/n/12 Correlation Fil-ters and Mo-tion
  []
 
-<Figure1.png, id=126, 970.62625pt x 843.15pt>
+<Figure1.png, id=94, 970.62625pt x 843.15pt>
 File: Figure1.png Graphic file (type png)
 <use Figure1.png>
 Package pdftex.def Info: Figure1.png  used on input line 100.
 (pdftex.def)             Requested size: 112.68349pt x 97.88008pt.
-<Figure2.png, id=127, 642.4pt x 361.35pt>
+<Figure2.png, id=95, 642.4pt x 361.35pt>
 File: Figure2.png Graphic file (type png)
 <use Figure2.png>
 Package pdftex.def Info: Figure2.png  used on input line 100.
@@ -603,7 +603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 motion-guided and confidence-controlled pipeline.
  []
 
-<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=136, 1119.43219pt x 712.91344pt>
+<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=104, 1119.43219pt x 712.91344pt>
 File: Bao_CSRTUpdate_OnlyDraio1.drawio.png Graphic file (type png)
 <use Bao_CSRTUpdate_OnlyDraio1.drawio.png>
 Package pdftex.def Info: Bao_CSRTUpdate_OnlyDraio1.drawio.png  used on input li
@@ -628,84 +628,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--367
 []\OT1/cmr/m/n/10 By in-te-grat-ing deep scale re-fine-ment and
  []
 
-[6] [7] (CSRT+RCNN.aux)
+[6] [7] (section35_check.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `CSRT+RCNN.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CSRT+RCNN.out':
-(rerunfilecheck)             Before: 114646475497732E048F940C69F0F7CB;6058
-(rerunfilecheck)             After:  41E7BF9FDF345400E8C99256EC811796;4014.
+Package rerunfilecheck Info: File `section35_check.out' has not changed.
+(rerunfilecheck)             Checksum: 41E7BF9FDF345400E8C99256EC811796;4014.
  ) 
 Here is how much of TeX's memory you used:
- 13977 strings out of 467691
- 219473 string characters out of 5414988
- 658391 words of memory out of 5000000
- 42804 multiletter control sequences out of 15000+600000
+ 13961 strings out of 467691
+ 219255 string characters out of 5414988
+ 658418 words of memory out of 5000000
+ 42796 multiletter control sequences out of 15000+600000
  637491 words of font info for 77 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  75i,9n,79p,932b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.3.5.8} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.7} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.6} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.5} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.4} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
- <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
-00.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nguye/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nguye/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/nguye/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ngu
-ye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CSRT+RCNN.pdf (7 pages, 1369664 bytes).
+ <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nguye/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nguye/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/nguye/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/n
+guye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on section35_check.pdf (7 pages, 1365352 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
