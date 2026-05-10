@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,25 +572,20 @@ Underfull \hbox (badness 5345) in paragraph at lines 74--74
 []\OT1/cmr/bx/n/12 Correlation Fil-ters and Mo-tion
  []
 
-<Figure1.png, id=126, 970.62625pt x 843.15pt>
+<Figure1.png, id=98, 970.62625pt x 843.15pt>
 File: Figure1.png Graphic file (type png)
 <use Figure1.png>
 Package pdftex.def Info: Figure1.png  used on input line 100.
-(pdftex.def)             Requested size: 112.68349pt x 97.88008pt.
-<Figure2.png, id=127, 642.4pt x 361.35pt>
+(pdftex.def)             Requested size: 103.48459pt x 89.89066pt.
+<Figure2.png, id=99, 642.4pt x 361.35pt>
 File: Figure2.png Graphic file (type png)
 <use Figure2.png>
 Package pdftex.def Info: Figure2.png  used on input line 100.
-(pdftex.def)             Requested size: 112.68349pt x 63.38055pt.
+(pdftex.def)             Requested size: 103.48459pt x 58.20865pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 100.
 See the caption package documentation for explanation.
-
-
-Overfull \hbox (3.34126pt too wide) in paragraph at lines 100--101
- [] 
- []
 
 
 Underfull \hbox (badness 6876) in paragraph at lines 115--116
@@ -603,7 +598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 motion-guided and confidence-controlled pipeline.
  []
 
-<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=136, 1119.43219pt x 712.91344pt>
+<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=108, 1119.43219pt x 712.91344pt>
 File: Bao_CSRTUpdate_OnlyDraio1.drawio.png Graphic file (type png)
 <use Bao_CSRTUpdate_OnlyDraio1.drawio.png>
 Package pdftex.def Info: Bao_CSRTUpdate_OnlyDraio1.drawio.png  used on input li
@@ -624,88 +619,95 @@ it/10 ^^Q[]w[];  h[] \OT1/cmr/m/n/10 = (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-[]\OT1/cmr/m/n/10 By in-te-grat-ing deep scale re-fine-ment and
- []
+<otb100_lasot_fps_success_auc_cross_section_full_en.png, id=150, 1438.173pt x 5
+19.541pt>
+File: otb100_lasot_fps_success_auc_cross_section_full_en.png Graphic file (type
+ png)
+<use otb100_lasot_fps_success_auc_cross_section_full_en.png>
+Package pdftex.def Info: otb100_lasot_fps_success_auc_cross_section_full_en.png
+  used on input line 308.
+(pdftex.def)             Requested size: 410.84462pt x 148.4116pt.
 
-[6] [7] (CSRT+RCNN.aux)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 309.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 327.
+See the caption package documentation for explanation.
+
+[6 <./otb100_lasot_fps_success_auc_cross_section_full_en.png>]
+<Jetson_Lasot_AUC.png, id=160, 2055.68pt x 1533.73pt>
+File: Jetson_Lasot_AUC.png Graphic file (type png)
+<use Jetson_Lasot_AUC.png>
+Package pdftex.def Info: Jetson_Lasot_AUC.png  used on input line 384.
+(pdftex.def)             Requested size: 108.08492pt x 80.62267pt.
+<Jetson_Lasot_FPS.png, id=161, 2055.68pt x 1331.97626pt>
+File: Jetson_Lasot_FPS.png Graphic file (type png)
+<use Jetson_Lasot_FPS.png>
+Package pdftex.def Info: Jetson_Lasot_FPS.png  used on input line 384.
+(pdftex.def)             Requested size: 108.08492pt x 70.0172pt.
+<JetsonNano_OTB_SuccessPlot.png, id=162, 554.07pt x 367.3725pt>
+File: JetsonNano_OTB_SuccessPlot.png Graphic file (type png)
+<use JetsonNano_OTB_SuccessPlot.png>
+Package pdftex.def Info: JetsonNano_OTB_SuccessPlot.png  used on input line 384
+.
+(pdftex.def)             Requested size: 108.08492pt x 71.66257pt.
+<JetsonNano_OTB_FPS.png, id=163, 554.07pt x 369.38pt>
+File: JetsonNano_OTB_FPS.png Graphic file (type png)
+<use JetsonNano_OTB_FPS.png>
+Package pdftex.def Info: JetsonNano_OTB_FPS.png  used on input line 384.
+(pdftex.def)             Requested size: 108.08492pt x 72.05417pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 384.
+See the caption package documentation for explanation.
+
+[7 <./Jetson_Lasot_AUC.png> <./Jetson_Lasot_FPS.png> <./JetsonNano_OTB_SuccessP
+lot.png> <./JetsonNano_OTB_FPS.png>] [8] (CSRT+RCNN.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `CSRT+RCNN.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CSRT+RCNN.out':
-(rerunfilecheck)             Before: 114646475497732E048F940C69F0F7CB;6058
-(rerunfilecheck)             After:  41E7BF9FDF345400E8C99256EC811796;4014.
+Package rerunfilecheck Info: File `CSRT+RCNN.out' has not changed.
+(rerunfilecheck)             Checksum: 7736D7FF7BAD534EC96AC4414780A511;4444.
  ) 
 Here is how much of TeX's memory you used:
- 13977 strings out of 467691
- 219473 string characters out of 5414988
- 658391 words of memory out of 5000000
- 42804 multiletter control sequences out of 15000+600000
- 637491 words of font info for 77 fonts, out of 8000000 for 9000
+ 14008 strings out of 467691
+ 220579 string characters out of 5414988
+ 658822 words of memory out of 5000000
+ 42840 multiletter control sequences out of 15000+600000
+ 637659 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  75i,9n,79p,932b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.3.5.8} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.7} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.6} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.5} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.4} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
- <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
-00.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nguye/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nguye/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/nguye/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ngu
-ye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CSRT+RCNN.pdf (7 pages, 1369664 bytes).
+ <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nguye/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nguye/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/nguye/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/n
+guye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/
+nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb>
+Output written on CSRT+RCNN.pdf (8 pages, 2029774 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
