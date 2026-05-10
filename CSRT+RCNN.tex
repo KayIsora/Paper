@@ -161,7 +161,7 @@ c_k^{\mathrm{CSRT}} = \arg\max_{p} R_k(p),
 which is represented as the measurement vector
 $z_k^{\mathrm{CSRT}} = [x_k^{\mathrm{CSRT}}, y_k^{\mathrm{CSRT}}]^{\top}$.
 
-Although the response peak provides an efficient localization cue, its reliability can vary significantly under fast motion, occlusion, deformation, or background distraction. A sharp single peak usually indicates a confident localization, whereas a flat or multi-modal response may indicate ambiguity. Therefore, CA-CSRT does not directly update the target state from $z_k^{\mathrm{CSRT}}$. Instead, the response map $R_k$ is further analyzed to estimate measurement reliability, which is then used for confidence-guided Kalman fusion and model update.
+Although the response peak provides an efficient localization cue, its reliability can vary significantly under fast motion, occlusion, deformation, or background distractors. A sharp single peak usually indicates a confident localization, whereas a flat or multi-modal response may indicate ambiguity. Therefore, CA-CSRT does not directly update the target state from $z_k^{\mathrm{CSRT}}$. Instead, the response map $R_k$ is further analyzed to estimate measurement reliability, which is then used for confidence-guided Kalman fusion and model update.
 
 \subsection{APCE-Based Measurement Reliability Estimation}
 
@@ -198,7 +198,7 @@ CA-CSRT uses a lightweight constant-velocity Kalman filter to provide a motion p
 where $(x_k,y_k)$ denotes the target center and $(\dot{x}_k,\dot{y}_k)$ denotes its velocity. The prediction step is written as:
 
 \begin{equation}
-\hat{\mathbf{s}}_{k|k-1} = \mathbf{F}\mathbf{s}_{k-1},
+\hat{\mathbf{s}}_{k|k-1} = \mathbf{F}\hat{\mathbf{s}}_{k-1|k-1},
 \end{equation}
 
 \begin{equation}
@@ -290,9 +290,9 @@ This closed-loop design links correlation-based localization, response reliabili
 
 \subsection{Experimental Setup}
 
-The proposed CA-CSRT framework is evaluated using the One-Pass Evaluation (OPE) protocol commonly adopted in visual object tracking benchmarks. The evaluation focuses on two main aspects: tracking accuracy and runtime efficiency. OTB100~[8] is used as the primary short-term tracking benchmark, while an evaluated LaSOT~[7] subset is used to analyze tracking behavior on longer and more challenging sequences.
+The proposed CA-CSRT framework is evaluated using the One-Pass Evaluation (OPE) protocol commonly adopted in visual object tracking benchmarks. The evaluation focuses on two main aspects: tracking accuracy and runtime efficiency. OTB100~[7] is used as the primary short-term tracking benchmark, while an evaluated LaSOT~[6] subset is used to analyze tracking behavior on longer and more challenging sequences.
 
-The OTB100~[8] evaluation contains 100 sequences with different tracking challenges, including fast motion, scale variation, occlusion, deformation, background clutter, and illumination change. The LaSOT~[7] evaluation in this work is conducted on the available evaluated subset of 40 sequences. Therefore, LaSOT results are reported as subset results rather than full LaSOT benchmark results.
+The OTB100~[7] evaluation contains 100 sequences with different tracking challenges, including fast motion, scale variation, occlusion, deformation, background clutter, and illumination change. The LaSOT~[6] evaluation in this work is conducted on the available evaluated subset of 40 sequences. Therefore, LaSOT results are reported as subset results rather than full LaSOT benchmark results.
 
 The main evaluation metrics are success AUC, precision at a 20-pixel threshold, and frames per second (FPS). Success AUC measures the average overlap-based success rate over different intersection-over-union thresholds, while Precision@20 measures the percentage of frames whose center location error is below 20 pixels. FPS is used to analyze runtime behavior. In addition to reporting individual metrics, this work emphasizes the FPS--AUC trade-off, which is particularly important for real-time and embedded tracking scenarios.
 
@@ -316,7 +316,7 @@ The FPS--AUC comparison indicates that CA-CSRT operates in a practical runtime r
 
 For edge-oriented tracking, this type of trade-off is often more informative than a single accuracy metric. In practical deployment, especially on resource-constrained hardware, a tracker with slightly lower peak accuracy but more favorable runtime may be more useful than a heavier model with high computational cost. Therefore, the role of Figure~\ref{fig:fps_auc_cross_dataset} is to position CA-CSRT in terms of efficiency-aware tracking rather than to claim universal superiority over all compared trackers.
 
-Recent edge-oriented tracking literature also supports this evaluation perspective. Zhai et al. [9] note that modern high-accuracy trackers, especially deep and transformer-based models, can become computationally expensive for deployment on resource-constrained devices. In their Jetson TX2 evaluation, STARK-S50 is reported at 5.56 FPS, LightTrack at 18 FPS, and MobileTrack at more than 33 FPS. These literature values are not directly compared with our Jetson Nano measurements because the hardware platforms and implementations differ. Instead, they motivate the use of embedded FPS and FPS--AUC trade-off as important deployment-oriented evaluation criteria.
+Recent edge-oriented tracking literature also supports this evaluation perspective. Zhai et al. [8] note that modern high-accuracy trackers, especially deep and transformer-based models, can become computationally expensive for deployment on resource-constrained devices. In their Jetson TX2 evaluation, STARK-S50 is reported at 5.56 FPS, LightTrack at 18 FPS, and MobileTrack at more than 33 FPS. These literature values are not directly compared with our Jetson Nano measurements because the hardware platforms and implementations differ. Instead, they motivate the use of embedded FPS and FPS--AUC trade-off as important deployment-oriented evaluation criteria.
 
 \subsection{Comparison with Pure CSRT}
 
@@ -342,7 +342,7 @@ On OTB100, CA-CSRT obtains a slightly higher mean AUC than the pure CSRT baselin
 
 On the evaluated LaSOT subset, the improvement is more visible: CA-CSRT achieves higher mean AUC and wins on 27 out of 40 sequences. This suggests that the confidence-aware fusion and update control are more beneficial in longer or more challenging sequences, where response ambiguity and drift are more likely to occur.
 
-At the same time, pure CSRT remains stronger on some sequences. This is expected because motion prediction and confidence-controlled update can be less beneficial when the target motion is simple, when the response map is already reliable, or when the additional refinement does not improve the localization result. Therefore, the proposed method is best interpreted as a robustness-oriented enhancement to CSRT rather than a replacement that dominates all cases.
+At the same time, pure CSRT remains stronger on some sequences. This is expected because motion prediction and confidence-controlled update can be less beneficial when the target motion is simple, when the response map is already reliable, or when the additional refinement does not improve the localization result. Therefore, the proposed method is more appropriately interpreted as a robustness-oriented enhancement to CSRT rather than a replacement that dominates all cases.
 
 \subsection{Embedded Deployment Results on Jetson Nano}
 
@@ -435,11 +435,6 @@ M. Danelljan, G. Häger, F. Khan, and M. Felsberg,
 R. E. Kalman,
 ``A new approach to linear filtering and prediction problems,''
 \textit{Journal of Basic Engineering}, 1960.
-
-\bibitem{kendall2017}
-A. Kendall and Y. Gal,
-``What uncertainties do we need in Bayesian deep learning for computer vision?''
-\textit{NIPS}, 2017.
 
 \bibitem{fan2019}
 H. Fan, L. Lin, F. Yang, P. Chu, G. Deng, S. Yu, H. Bai, Y. Xu, C. Liao, and H. Ling,
