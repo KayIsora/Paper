@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 MAY 2026 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,24 +467,24 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 ) (CSRT+RCNN.aux)
 \openout1 = `CSRT+RCNN.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -511,7 +511,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 27.
  (CSRT+RCNN.out) (CSRT+RCNN.out)
 \@outlinefile=\write3
 \openout3 = `CSRT+RCNN.out'.
@@ -554,135 +554,134 @@ Package hyperref Info: Link coloring OFF on input line 29.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[1
 
-{C:/Users/nguye/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 5345) in paragraph at lines 74--74
+LaTeX Warning: No \author given.
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 68--68
 []\OT1/cmr/bx/n/12 Correlation Fil-ters and Mo-tion
  []
 
-<Figure1.png, id=94, 970.62625pt x 843.15pt>
-File: Figure1.png Graphic file (type png)
-<use Figure1.png>
-Package pdftex.def Info: Figure1.png  used on input line 100.
-(pdftex.def)             Requested size: 103.48459pt x 89.89066pt.
-<Figure2.png, id=95, 642.4pt x 361.35pt>
-File: Figure2.png Graphic file (type png)
-<use Figure2.png>
-Package pdftex.def Info: Figure2.png  used on input line 100.
-(pdftex.def)             Requested size: 103.48459pt x 58.20865pt.
+[1
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 100.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 6876) in paragraph at lines 115--116
-\OT1/cmr/m/n/10 Given an ini-tial tar-get bound-ing box $\OML/cmm/m/it/10 B[] \
-OT1/cmr/m/n/10 =
- []
-
-[2 <./Figure1.png (PNG copy)> <./Figure2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-\OT1/cmr/m/n/10 motion-guided and confidence-controlled pipeline.
- []
-
-<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=104, 1119.43219pt x 712.91344pt>
+{C:/Users/nguye/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<Bao_CSRTUpdate_OnlyDraio1.drawio.png, id=91, 1119.43219pt x 712.91344pt>
 File: Bao_CSRTUpdate_OnlyDraio1.drawio.png Graphic file (type png)
 <use Bao_CSRTUpdate_OnlyDraio1.drawio.png>
 Package pdftex.def Info: Bao_CSRTUpdate_OnlyDraio1.drawio.png  used on input li
-ne 128.
-(pdftex.def)             Requested size: 391.28378pt x 249.18622pt.
+ne 93.
+(pdftex.def)             Requested size: 317.91388pt x 202.46448pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 129.
+(caption)                particular \caption on input line 94.
 See the caption package documentation for explanation.
 
-[3 <./Bao_CSRTUpdate_OnlyDraio1.drawio.png>] [4]
-Overfull \hbox (10.16785pt too wide) detected at line 270
-[][][]\OML/cmm/m/it/10 w[] \OT1/cmr/m/n/10 = (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m
-/it/10 ^^Q[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 w[] \OT1/cmr/m/n/10 + \OML/cmm/m/
-it/10 ^^Q[]w[];  h[] \OT1/cmr/m/n/10 = (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10
- ^^Q[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 h[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 
-^^Q[]h[];
- []
-
-[5]
-<otb100_lasot_fps_success_auc_cross_section_full_en.png, id=146, 1438.173pt x 5
+[2 <./Bao_CSRTUpdate_OnlyDraio1.drawio.png>] [3]
+<otb100_lasot_fps_success_auc_cross_section_full_en.png, id=125, 1438.173pt x 5
 19.541pt>
 File: otb100_lasot_fps_success_auc_cross_section_full_en.png Graphic file (type
  png)
 <use otb100_lasot_fps_success_auc_cross_section_full_en.png>
 Package pdftex.def Info: otb100_lasot_fps_success_auc_cross_section_full_en.png
-  used on input line 308.
-(pdftex.def)             Requested size: 410.84462pt x 148.4116pt.
+  used on input line 232.
+(pdftex.def)             Requested size: 352.15466pt x 127.21335pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 309.
+(caption)                particular \caption on input line 233.
 See the caption package documentation for explanation.
 
+[4 <./otb100_lasot_fps_success_auc_cross_section_full_en.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 327.
+(caption)                particular \caption on input line 249.
 See the caption package documentation for explanation.
 
-[6 <./otb100_lasot_fps_success_auc_cross_section_full_en.png>]
-<Jetson_Lasot_AUC.png, id=156, 2055.68pt x 1533.73pt>
+<lasot_challenge_representative_mytracker_vs_csrt.png, id=138, 1027.84pt x 875.
+27pt>
+File: lasot_challenge_representative_mytracker_vs_csrt.png Graphic file (type p
+ng)
+<use lasot_challenge_representative_mytracker_vs_csrt.png>
+Package pdftex.def Info: lasot_challenge_representative_mytracker_vs_csrt.png  
+used on input line 275.
+(pdftex.def)             Requested size: 225.17892pt x 191.7453pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 276.
+See the caption package documentation for explanation.
+
+<challenge_representative_mytracker_vs_csrt.png, id=140, 1041.8925pt x 875.27pt
+>
+File: challenge_representative_mytracker_vs_csrt.png Graphic file (type png)
+<use challenge_representative_mytracker_vs_csrt.png>
+Package pdftex.def Info: challenge_representative_mytracker_vs_csrt.png  used o
+n input line 285.
+(pdftex.def)             Requested size: 225.17892pt x 189.1677pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 286.
+See the caption package documentation for explanation.
+
+<Jetson_Lasot_AUC.png, id=143, 2055.68pt x 1533.73pt>
 File: Jetson_Lasot_AUC.png Graphic file (type png)
 <use Jetson_Lasot_AUC.png>
-Package pdftex.def Info: Jetson_Lasot_AUC.png  used on input line 384.
-(pdftex.def)             Requested size: 108.08492pt x 80.62267pt.
-<Jetson_Lasot_FPS.png, id=157, 2055.68pt x 1331.97626pt>
+Package pdftex.def Info: Jetson_Lasot_AUC.png  used on input line 301.
+(pdftex.def)             Requested size: 94.28745pt x 70.32542pt.
+<Jetson_Lasot_FPS.png, id=144, 2055.68pt x 1331.97626pt>
 File: Jetson_Lasot_FPS.png Graphic file (type png)
 <use Jetson_Lasot_FPS.png>
-Package pdftex.def Info: Jetson_Lasot_FPS.png  used on input line 384.
-(pdftex.def)             Requested size: 108.08492pt x 70.0172pt.
-<JetsonNano_OTB_SuccessPlot.png, id=158, 554.07pt x 367.3725pt>
+Package pdftex.def Info: Jetson_Lasot_FPS.png  used on input line 307.
+(pdftex.def)             Requested size: 94.28745pt x 61.0745pt.
+<JetsonNano_OTB_SuccessPlot.png, id=145, 554.07pt x 367.3725pt>
 File: JetsonNano_OTB_SuccessPlot.png Graphic file (type png)
 <use JetsonNano_OTB_SuccessPlot.png>
-Package pdftex.def Info: JetsonNano_OTB_SuccessPlot.png  used on input line 384
+Package pdftex.def Info: JetsonNano_OTB_SuccessPlot.png  used on input line 315
 .
-(pdftex.def)             Requested size: 108.08492pt x 71.66257pt.
-<JetsonNano_OTB_FPS.png, id=159, 554.07pt x 369.38pt>
+(pdftex.def)             Requested size: 94.28745pt x 62.51414pt.
+<JetsonNano_OTB_FPS.png, id=146, 554.07pt x 369.38pt>
 File: JetsonNano_OTB_FPS.png Graphic file (type png)
 <use JetsonNano_OTB_FPS.png>
-Package pdftex.def Info: JetsonNano_OTB_FPS.png  used on input line 384.
-(pdftex.def)             Requested size: 108.08492pt x 72.05417pt.
-
+Package pdftex.def Info: JetsonNano_OTB_FPS.png  used on input line 321.
+(pdftex.def)             Requested size: 94.28745pt x 62.85576pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 384.
+(caption)                particular \caption on input line 325.
 See the caption package documentation for explanation.
 
-[7 <./Jetson_Lasot_AUC.png> <./Jetson_Lasot_FPS.png> <./JetsonNano_OTB_SuccessP
-lot.png> <./JetsonNano_OTB_FPS.png>] [8] (CSRT+RCNN.aux)
+[5 <./lasot_challenge_representative_mytracker_vs_csrt.png> <./challenge_repres
+entative_mytracker_vs_csrt.png>]
+Overfull \vbox (1.68515pt too high) has occurred while \output is active []
+
+
+[6 <./Jetson_Lasot_AUC.png> <./Jetson_Lasot_FPS.png> <./JetsonNano_OTB_SuccessP
+lot.png> <./JetsonNano_OTB_FPS.png>] (CSRT+RCNN.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `CSRT+RCNN.out' has not changed.
-(rerunfilecheck)             Checksum: 39C9A7D37A66FE48B45D89ADF1FE2635;4215.
+(rerunfilecheck)             Checksum: 87DAF73775A308937E687C2F26850144;3948.
  ) 
 Here is how much of TeX's memory you used:
  14001 strings out of 467691
- 220490 string characters out of 5414988
- 658789 words of memory out of 5000000
- 42836 multiletter control sequences out of 15000+600000
+ 221070 string characters out of 5414988
+ 672711 words of memory out of 5000000
+ 42838 multiletter control sequences out of 15000+600000
  637491 words of font info for 77 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 75i,9n,79p,932b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1689b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -693,19 +692,17 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nguye/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/nguye/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/n
 guye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17
 .pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CSRT+RCNN.pdf (8 pages, 2014277 bytes).
+cm/cmr7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr9.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nguye/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on CSRT+RCNN.pdf (6 pages, 5805312 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
